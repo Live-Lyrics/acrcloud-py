@@ -1,0 +1,4 @@
+.idea
+/acrcloud.egg-info/
+/examples/
+/.env
