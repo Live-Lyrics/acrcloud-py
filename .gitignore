@@ -2,3 +2,4 @@
 /acrcloud.egg-info/
 /examples/
 /.env
+/dist/
