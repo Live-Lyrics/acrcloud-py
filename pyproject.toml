@@ -8,8 +8,8 @@ readme = "README.md"
 homepage = "https://github.com/andriyor/acrcloud-py"
 
 [tool.poetry.dependencies]
-python = "^3.6"
-requests = "^2.21"
+python = "^3.5"
+requests = "^2.22"
 
 [tool.poetry.dev-dependencies]
 
