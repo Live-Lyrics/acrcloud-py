@@ -3,29 +3,33 @@
 [![image](https://img.shields.io/pypi/l/acr-cloud.svg)](https://pypi.org/project/acr-cloud/)
 [![image](https://img.shields.io/pypi/pyversions/acr-cloud.svg)](https://pypi.org/project/acr-cloud/)
 
-
 An ACR-Cloud API Python client library
 
 ## Installation
 from PyPI
 ```
-$ pip install 
+$ pip install acr-cloud
 ```
 
 from git repository
 ```
-$ pip install git+https://github.com/andriyor/amalgama-pq.git#egg=amalgama-pq
+$ pip install git+https://github.com/Live-Lyrics/acrcloud-py
 ```
 
 from source
 ```
-$ git clone https://github.com/andriyor/amalgama-pq.git
-$ cd amalgama
+$ git clone https://github.com/Live-Lyrics/acrcloud-py
+$ cd acrcloud-py
 $ python setup.py install
 ```
 
+## Version upgrade
+```
+➜ pip install --upgrade acr-cloud
+```
+
 ### Requirements
-* Python 3.6 and up
+* Python 3.5 and up
 
 ## Usage
 
@@ -42,13 +46,13 @@ print(metadata)
 ```
 
 ## Development setup
-Install [Pipenv](https://docs.pipenv.org/)   
-```
-$ pipenv install --dev -e .
-```
-or [Poetry](https://poetry.eustace.io/docs/)   
+Using [Poetry](https://poetry.eustace.io/docs/)   
 ```
 $ poetry install
+```
+or [Pipenv](https://docs.pipenv.org/)   
+```
+$ pipenv install --dev -e .
 ```
 
 ## License
